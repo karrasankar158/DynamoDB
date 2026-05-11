@@ -189,3 +189,14 @@ A) Yes
 B) No
 
 ✅ Answer: B) No
+
+
+
+Which database supports dynamically growing fields/columns without altering the table schema?
+
+A) MySQL
+B) PostgreSQL
+C) Oracle
+D) DynamoDB
+
+✅ Answer: D) DynamoDB
