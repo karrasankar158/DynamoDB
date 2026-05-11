@@ -1,0 +1,23 @@
+Post:
+
+curl --location 'http://localhost:8080/summary' \
+--header 'Content-Type: application/json' \
+--data '{
+  "title": "Monthly Expense Summary",
+  "description": "Summary of April month expenses",
+  "status": "ACTIVE",
+  "amount": 12500.75
+}
+'
+
+GET: 
+
+curl --location --request GET 'http://localhost:8080/summary/b309d15e-f5ed-43c6-94d0-dab56969dfdb' \
+--header 'Content-Type: application/json' \
+--data '{
+  "title": "Monthly Expense Summary",
+  "description": "Summary of April month expenses",
+  "status": "ACTIVE",
+  "amount": 12500.75
+}
+'
