@@ -1,7 +1,10 @@
-Integrating AWS DynamoDB to Spring boot microservice application:
+How to Integrate AWS DynamoDB to Spring boot microservice application:
+Referral video Link: https://www.youtube.com/watch?v=kq912iHhGJo
+spring boot version: 2.7.3 
+Chart GPT Link doubts: https://chatgpt.com/share/6a01341f-1524-83e9-a57f-f1a876191afc
 DynamoDB:
      1. Definition:
-          AWS DynamoDB is a No-SQL key-value data store and 
+          AWS DynamoDB is a No-SQL key-value data store and helps us to store flexible data models.
  
      2. Theory: 
 
@@ -159,6 +162,10 @@ public class SummaryController {
     }
 }
 
+
+Issue in findAll() method:
+Enable scanning for all repositories  methods by annotating your repository interface with @EnableScan.  
+
 {
   "title": "Monthly Expense Summary",
   "description": "Summary of April month expenses",
@@ -182,4 +189,3 @@ A) Yes
 B) No
 
 ✅ Answer: B) No
-
